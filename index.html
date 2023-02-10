@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagamento</title>
+    <link rel="stylesheet" href="./css/style.css" type="text/css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li>Sacola</li>
+            <li class="pag">Pagamento</li>
+            <li>Confirmação</li>
+        </ul>
+    </nav>
+    <main>
+        <h2>Pagamento</h2>
+        <section id="principal">
+            <section id="esquerda">
+                <form>
+                    <label>Número do Cartão de Crédito</label>
+                    <input type="text">
+                    <label>Nome do Titular</label>
+                    <input type="text" placeholder="Como no cartão">
+    
+                    <div id="seguranca">
+                        <div id="validade">
+                            <label>Validade (mês/ano) </label>
+                            <input type="text">
+                        </div>
+                        <div id="cvv">
+                            <label>CVV: </label>
+                            <input type="number">
+                        </div>
+                    </div>
+                </form>
+                <img width="200px" src="assets/card.png">
+            </section>
+    
+            <section id="direita">
+                <ul>
+                    <li>
+                        <h5>Produtos</h5>
+                        <span>R$ 328,96 </span>
+                    </li>
+                    <li>
+                        <h5>Frete</h5>
+                        <span>R$ 9,90</span>
+                    </li>
+                    <li>
+                        <h5>Desconto</h5>
+                        <span>R$ 14,99</span>
+                    </li>
+                    <li>
+                        <h5 class="total">Total</h5>
+                        <span class="total">R$ 323,87</span>
+                    </li>
+                </ul>
+                <button>Seguir para o pagamento</button>
+            </section>
+        </section>
+    </main>
+</body>
+</html>

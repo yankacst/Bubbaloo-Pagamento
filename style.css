@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Sarala&display=swap');
+
+
+body{
+    background-color:#f8bbd0;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Sarala', sans-serif;
+}
+
+nav {
+    display: flex;
+    background-color:#d81b60;
+    box-shadow: 4px 4px 4px #42424281;
+}
+
+    nav ul {
+        width: 100%;
+        height: 50px;
+        list-style: none;
+        margin: 0px;
+        padding: 0px;
+        display: flex;
+        justify-content: space-around;
+        color: #CCCCCC;
+    }
+
+    nav ul li {
+        display: flex;
+        align-items: center;
+        font-size: 19px;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+
+    nav .pag {
+        color: black;
+}
+
+main h2 {
+    margin-left: 20px;
+    text-transform: uppercase;
+}
+
+#principal {
+    width: 100%;
+    justify-content: space-around;
+    display: flex;
+}
+
+    #esquerda {
+    width: 73%;
+    border: 1px solid #b0afaf;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #fce4ec;
+    }
+
+    form {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    border: solid #b0afaf;
+    }
+        form input {
+            height: 25px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+        
+        #seguranca {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        #validade {
+            width: 60%;
+            display: flex;
+            flex-direction: column;
+        }
+
+        #cvv {
+            width: 35%;
+            display: flex;
+            flex-direction: column;
+        }
+
+    #direita {
+        width: 23%;
+        background-color: #fce4ec;
+    }
+
+        direita ul {
+            list-style: none;
+            padding: 0px;
+            margin: 0px;
+            margin-bottom: 10px;
+            border-radius: 5px;
+            display: flex;
+            flex-direction: column;
+            border: 1px solid #b0afaf;
+        }
+
+        #direita ul li {
+            display: flex;
+            justify-content: space-around;
+            height: 30px;
+            margin: 5px;
+            text-transform: uppercase;
+            font-size: 18px;
+            align-items: center;
+            padding: 5px;
+        }
+
+        #direita ul li h5 {
+            margin: 0px;
+            padding: 0px;
+            font-weight: 100;
+        }
+
+        .total {
+            padding-top: 10px !important;
+            font-weight: bold !important;
+            margin-top: 30px;
+        }
+
+        #direita button {
+            height: 40px;
+            width: 50%;
+            font-size: 20px;
+            font-size: 15px;
+            margin-top: 50px;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            background-color: #d81b60;
+            border: 0px;
+            border-radius: 10px;
+            color: white;
+        }
